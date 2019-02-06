@@ -1,0 +1,28 @@
+#ifu {
+	font: bold 32px 'Times New Roman';
+	color: #292b99;
+	margin-top: 0px;
+	margin-left: 400px;
+}
+
+.infoClient {
+	height: 200px;
+	width: 600px;
+	background-color: #d0b0b0;
+	color: #2a2a2a;
+	font: normal 18px 'Times New Roman';
+	border-radius: 0  0 0 40px;
+	margin: 0 0 50px 280px;
+	padding-left: 20px;
+	overflow-y: scroll;
+}
+
+		/* TEXT STYLES */
+
+.paragraph{
+	padding-left: 30px; 
+}
+
+.spec{
+	font: italic bold 20px Arial;
+}
