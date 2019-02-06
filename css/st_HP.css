@@ -8,6 +8,9 @@ ul {
 }
 
 		/*    BG IMAGE    */
+html {
+	min-width: 1200px;
+}
 
 body {
 	background: white url(../img/1.jpg) no-repeat;
@@ -18,7 +21,6 @@ body {
 	/*text-align: center;*/
 	height: 100%;
 	width: 100%;
-	/*min-width: 1200px;*/
 }
 
 		/*    TOP    */
