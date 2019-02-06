@@ -7,6 +7,12 @@ ul {
 	list-style-type: none;
 }
 
+@media all and (min-width: 1200px) {
+  body {
+    /* максимальная ширина страницы - 100% - для телефонов */
+         width: 100%;
+  }
+
 		/*    BG IMAGE    */
 
 body {
@@ -130,3 +136,4 @@ button {
 	left: 0;
 	top: 1px;
 }
+
