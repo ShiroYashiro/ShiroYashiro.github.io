@@ -1,147 +1,18 @@
-		/* HEADER */
-
 header {
-	height: 300px;
-	width: 1700px;
+	height: 100px;
 	background-color: #aaaaaa;
-	background-image: url(../img/header.png); 
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 header #head {
-	color: #ffffff;
-	font: italic 20px 'Times New Roman';
+	color: red;
+	font: bold 30px Arial;
 	margin-top: 0px;
-	padding-top: 100px;
-	margin-left: 77%;
+	padding-top: 20px;
+	margin-left: 40%;
 }
 
-#h {
-	background-color: #5f5f5f;
-	border-radius: 0 20px;
-	padding-left: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
-	height: 100px;
-}
-
-p.stNavHead {
-	color: white;
-	float: left;
-	margin: 25px 100px;
-	padding: 0 0;
-	font: normal 36px 'Times New Roman';
-}
-
-a {
-	text-decoration: none;
-}
-
-		/* CONTENT */
-
-#wrapper{
-	background-image: url(../img/bg.png);
-	height: 1200px;
-	width: 1500px;
-	margin: 0 10%;
-}
-
-section {
-	background-image: url(../img/bg_section.png);
-	height: 1000px;
-	width: 900px;
-	border-radius: 20px;
-	margin-top: 50px;
-	padding: 50px 20px;
-	float: left;
-}
-
-aside {
-	background-image: url(../img/bg_aside.png);
-	height: 800px;
-	width: 400px;
-	border-radius: 20px;
-	margin-top: 50px;
-	margin-left: 120px;
-	padding: 50px 20px;
-	float: left;
-}
-
-#ad {
-	color: #292b99;
-	font: bold 48px 'Times New Roman';
-	margin-top: 5px;
-	margin-left: 130px;
-}
-
-#bord1 {
-	height: 300px;
-	width: 300px;
-}
-
-#bord2 {
-	margin-left: 80px;
-	margin-top: 50px;
-}
-#ad_bord2{
-	margin-top: 0px;
-	margin-left: 80px;
-	font: bold 26px 'Times New Roman';
-	color: #38383f;
-}
-
-		/* FOOTER */
-
-footer{
-	background-image: url(../img/footer.png);
-	height: 300px;
-	width: 1500px;
-	margin: 0 10%;
-	margin-top: -10px;
+#check {
 	color: white;
 }
-
-#f{
-	background-color: #5f5f5f;
-	border-radius: 0 20px;
-	padding: 5px 30px;
-	margin: 50px 50px ;
-	height: 200px;
-	float: left;
-}
-
-li.footList{
-	height: 20px;
-	color: white;
-}
-
-p.stNavFoot {
-	color: white;
-	/*float: left;*/
-/*	margin: 25px 100px;*/
-/*	padding: 0 0;*/
-	font: normal 24px 'Times New Roman';
-}
-
-#info {
-	height: 300px;
-	width: 1000px;
-	margin-right: 50px;
-	float: left;
-}
-
-#devel {
-	padding-top: 200px;
-}
-
-#foot{
-	color: white;
-}
-
-
-
-
-/*#check {
-	color: white;
-}*/
