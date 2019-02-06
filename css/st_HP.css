@@ -9,7 +9,7 @@ ul {
 
 		/*    BG IMAGE    */
 /*html {
-	min-width: 1200px;
+
 }*/
 
 body {
@@ -21,6 +21,7 @@ body {
 	/*text-align: center;*/
 	height: 100%;
 	width: 100%;
+	min-width: 1200px;
 }
 
 		/*    TOP    */
