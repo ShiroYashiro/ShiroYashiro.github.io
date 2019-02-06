@@ -7,12 +7,6 @@ ul {
 	list-style-type: none;
 }
 
-@media all and (min-width: 1200px) {
-  body {
-    /* максимальная ширина страницы - 100% - для телефонов */
-         width: 100%;
-  }
-
 		/*    BG IMAGE    */
 
 body {
@@ -24,16 +18,15 @@ body {
 	/*text-align: center;*/
 	height: 100%;
 	width: 100%;
-	min-width: 1200px;
+	/*min-width: 1200px;*/
 }
 
 		/*    TOP    */
 
 #top {
 	width: 100%;
-	min-width: 1200px;
 	height: 55px;
-	background: white url(../img/2.png) no-repeat;
+	background-image: url(../img/2.png);
 	/*margin-top: -20px;*/
 	margin-bottom: 100px;
 	padding-top: 5px;
@@ -67,9 +60,8 @@ a {
 
 #content {
 	width: 100%;
-	min-width: 1200px;
 	height: 100%;
-	background: white url(../img/2.png) no-repeat;
+	background-image: url(../img/2.png);
 	padding-top: 10px;
 	margin-bottom: 100px; 
 }
@@ -138,4 +130,3 @@ button {
 	left: 0;
 	top: 1px;
 }
-
