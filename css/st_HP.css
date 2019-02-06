@@ -31,6 +31,7 @@ body {
 
 #top {
 	width: 100%;
+	min-width: 1200px;
 	height: 55px;
 	background: white url(../img/2.png) no-repeat;
 	/*margin-top: -20px;*/
@@ -66,6 +67,7 @@ a {
 
 #content {
 	width: 100%;
+	min-width: 1200px;
 	height: 100%;
 	background: white url(../img/2.png) no-repeat;
 	padding-top: 10px;
