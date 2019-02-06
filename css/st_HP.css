@@ -1,0 +1,128 @@
+div, p, a, img, input, button, ul, li {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+		/*    BG IMAGE    */
+
+body {
+	background: white url(../img/1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	margin: 0 0;
+	/*text-align: center;*/
+	height: 100%;
+	width: 100%;
+}
+
+		/*    TOP    */
+
+#top {
+	width: 100%;
+	height: 55px;
+	background-image: url(../img/2.png);
+	/*margin-top: -20px;*/
+	margin-bottom: 100px;
+	padding-top: 5px;
+}
+
+#info {
+	margin-left: 35%;
+	margin-top: 5px;
+}
+
+#info img {
+	float: left;
+	margin-left: 10px;
+}
+
+#info p {
+	margin-top: 7px;
+	margin-left: 10px;
+	margin-right: 20px;
+	font: normal 16px Arial;
+	float: left;
+}
+a {
+	color: white;
+}
+
+		/*    CENTER-CONTENT    */
+
+
+#content {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/2.png);
+	padding-top: 10px;
+	margin-bottom: 100px; 
+}
+
+#center {
+	margin-left: 30%;
+}
+
+/*    ATIKL   */
+
+#atikl {
+	font: bold 32px 'Times New Roman';
+}
+
+/*    LIST    */
+
+#list {
+	margin-left: 5%;
+	padding-top: 50px;
+}
+
+#pictur img {
+	float: left;
+}
+
+#pictur li {
+	padding-bottom: 30px;
+}
+
+#pictur p {
+	padding-top: 10px;
+	margin-left: 50px;
+	font: normal 20px Arial;
+}
+
+/*    FORM    */
+
+#form {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 8%;
+}
+
+input {
+	border-radius: 5px;
+	background-color: #EAF2FF;
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+	border-width: 0;
+}
+
+input[type="email"]:focus {
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
+
+button {
+	border-radius: 5px;
+	background-color: #FFBD23;
+	margin-left: 20px;
+	padding: 11px;
+	font: bold 16px Arial;
+	border-width: 0;
+	position: relative;
+	left: 20px;
+	top: 1px;
+}
