@@ -1,0 +1,18 @@
+header {
+	height: 100px;
+	background-color: #aaaaaa;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+header #head {
+	color: red;
+	font: bold 30px Arial;
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 40%;
+}
+
+#check {
+	color: white;
+}
