@@ -2,33 +2,39 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Верстка | ShiroYashiro</title>
-	<link rel="stylesheet" type="text/css" href="css/st_HP.css">
+	<title>Каны | ShiroYashiro</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<script>
+		var p = documen.getElementById('numPage');
+		p.innerHTML = "1";
+	</script>
 
 		<!-- HEADER -->
 
 	<div id="top">
-		<p id="quest"></p>
+		<p id="titleDir"></p>
 	</div>
 
 		<!-- CENTER CONTENT -->
 
 	<div id="content">
-		<p id="titleDir"></p>
+		<p id="numPage"></p>
 		<div id="list">
+			<!--<img src="img/hirkat.jpg" alt="kana" id="kana">-->
 			<ul id="answers">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li><button id="a1" class="answ"></button></li>
+				<li><button id="a2" class="answ"></button></li>
+				<li><button id="a3" class="answ"></button></li>
+				<li><button id="a4" class="answ"></button></li>
 			</ul>
 		</div>
 	</div>
-	
+
 		<!-- SCRIPTS -->
 	
-	<script scr="js/main.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 </html>
